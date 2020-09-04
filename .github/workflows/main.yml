@@ -25,6 +25,7 @@ jobs:
       - uses: pCYSl5EDgo/create-unitypackage@master
         with:
           package-path: './scriptableObjects.unitypackage'
+          include-files: './Assets'
         
       - uses: craig-day/compute-tag@v10
         with:
